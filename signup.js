@@ -11,7 +11,7 @@ function getUserInfo(event){
   event.preventDefault(); // Prevents the page from getting reloaded by the submit call
   // First task: assign the proper values to these variables
   let name = ???
-  let email = ???
+  let email = form.querySelector('#email').value;
   let age = ???
   validateForm(name, email, age)
 }
