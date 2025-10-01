@@ -26,8 +26,16 @@ function renderUsers(filteredUsers = users) {
 }
 
 function validateForm(name, email, age) {
-  //
-
+  // Validate email
+  if (!(email.includes('@') &&
+      email.includes('.'))) {
+        alert("Incorrect email format")
+  }
+  if (!(email.length > 0 &&
+      email.length <= 120)) {
+        alert("Email must be between 1 and 120")
+      }
+      console.log(email.length);
 }
 
 function clearForm() {
