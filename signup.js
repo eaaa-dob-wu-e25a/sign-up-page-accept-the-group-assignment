@@ -10,9 +10,9 @@ form.addEventListener('submit', getUserInfo(submitEvent));
 function getUserInfo(event){
   event.preventDefault(); // Prevents the page from getting reloaded by the submit call
   // First task: assign the proper values to these variables
-  let name = ???
+  let name = form.querySelector ('#name').value;
   let email = form.querySelector('#email').value;
-  let age = ???
+  let age = form.querySelector('#age').value;
   validateForm(name, email, age)
 }
 
