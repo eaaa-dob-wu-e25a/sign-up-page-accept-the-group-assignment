@@ -4,7 +4,7 @@ const form = document.getElementById('signup-form');
 const errorMessage = document.getElementById('error-message');
 const searchInput = document.getElementById('search');
 
-form.addEventListener('submit', getUserInfo(submitEvent));
+form.addEventListener('submit', getUserInfo);
 
 // This function only runs when the form is submitted
 function getUserInfo(event){
