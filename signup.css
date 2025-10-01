@@ -33,3 +33,24 @@ button {
 #user-list {
   margin-top: 24px;
 }
+
+.remove-btn {
+  width: 50%;
+  padding: 4px;
+  background: #530000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  width: 50%;
+  padding: 4px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2px;
+}
